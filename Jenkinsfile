@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Credential Scan') {
             steps {
-                sh 'gitleaks detect'
+                sh 'cat test-secret.txt'
+                sh 'gitleaks detect --source . --verbose'
             }
         }
     }
