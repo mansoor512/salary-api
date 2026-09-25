@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="./static/salary-api-logo.svg" height="300" width="300">
 </p>
@@ -83,3 +84,5 @@ java -jar target/salary-0.1.0-RELEASE.jar
 ## Contact Information
 
 [Opstree Opensource](mailto:opensource@opstree.com)
+=======
+# salary-api
